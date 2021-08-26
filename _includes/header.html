@@ -2,6 +2,17 @@
 <html lang="en">
 
   <head>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77769887-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-77769887-1');
+    </script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,29 +36,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-     <script async src="https://www.googletagmanager.com/gtag/js?id=TRACKING_ID"></script>
-     <script>
-       window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-       gtag('js', new Date());
-       gtag('config', 'G-YVSG587CWN');
-
-       jQuery(document).ready(function( $ ){
-      // Get page title
-      	var pageTitle = $("title").text();
-
-      // Change page title on blur
-      $(window).blur(function() {
-    	  $("title").text("Come back ❤");
-    	});
-
-    	// Change page title back on focus
-    	$(window).focus(function() {
-    	  $("title").text(pageTitle);
-    	});
-    });
-     </script>
 
     <!-- Custom Fonts
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>

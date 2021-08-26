@@ -1,117 +1,166 @@
 ---
 title: WARFACE – Product Designer
-layout: default
+layout: hold
 ---
+<style>
+html, body, footer, .sheets {
+  background: #ffc436;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+}
+p {
+  text-align: center;
+  color: #807458;
+  line-height: 2rem;
+}
+.hero {
+  padding-top: 4vh;
+}
+.navbar-brand {
+  width: 300px;
+  margin: 0 auto !important;
+  display: block;
+}
+footer a, footer h2 {
+  color: #ff6161;
+}
+footer a:hover {
+  color: white;
+}
+.list-inline {
+  text-align: center;
+}
+p.card-text {
+  display: none;
+}
+.sheets {
+  background: transparent;
+  padding: 0px;
+  padding-top: 8vh;
+}
+.color-block h2 {
+  text-align: left;
+}
+.color-block p.lead {
+  text-align: left;
+}
+.color-block.trainline {
+  background: #48D5B5;
+}
+.color-block.sciencemuseum {
+  background: black;
+}
+.color-block.recliningworm {
+  background: #3a55bf;
+}
+</style>
 
 <div class="container-fluid sticky hero">
-  {% include about.html %}
-  <p class="lead">Blurb</p>
+  <a class="navbar-brand" href="#"></a>
+  <div class="row">
+    <div class="col">
+      <h2>Rob Cleaton.
+        Product designer based in London. With over 15 years experience designing and leading design teams.</h2>
+    </div>
+  </div>
 </div>
 
-<div class="sheets">
 
-  <div class="container-fluid">
-    <div class="row color-block trainline">
-      <div class="col-5 col-sm-4">
-        <a class="stretched-link" style="display: block;" href="{{ site.baseurl }}/trainline-mobile-apps"></a>
+  <div class="sheets">
 
-        <div class="center-align">
-          <div class="scroll-element js-scroll fade-in">
-            <h2 style="color: #3a55bf;">Trainline mobile apps</h2>
-            <h4><a href="trainline-mobile-apps">The customer champion of train travel</a></h4>
-            <p class="lead">Product design, UI, UX.</p>
+    <div class="container-fluid">
+      <div class="row color-block cookpad">
+        <div class="col-5">
+          <div class="center-align">
+            <div class="scroll-element">
+              <h2>Cookpad</h2>
+              <h4>Recipe sharing cooking community</h4>
+              <p class="lead">Product stratgy, product design, UI, UX.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container-fluid">
-    <div class="row color-block cookpad">
-      <div class="col-5">
-        <div class="center-align">
-          <div class="scroll-element js-scroll fade-in">
-            <h2>Cookpad</h2>
-            <h4><a href="cookpad">Restaurant facing tools</a></h4>
-            <p class="lead">Product design, UI, UX.</p>
+    <div class="container-fluid">
+      <div class="row color-block trainline">
+        <div class="col-5 col-sm-4">
+
+          <div class="center-align">
+            <div class="scroll-element">
+              <h2 style="color: #3a55bf;">Trainline mobile apps</h2>
+              <h4>The customer champion of train travel</h4>
+              <p class="lead">Product design, UI, UX.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
-  <div class="container-fluid">
-    <div class="row color-block sciencemuseum">
-      <div class="col-5">
-        <div class="center-align">
-          <div class="scroll-element js-scroll fade-in">
-            <h2 style="color: pink;">Science Museum</h2>
-            <h4><a href="science-museum-lighting-control-app">Science Museum</a></h4>
+    
+    <div class="container-fluid">
+      <div class="row color-block sciencemuseum">
+        <div class="col-5">
+          <div class="center-align">
+            <div class="scroll-element">
+              <h2 style="color: white;">Science Museum</h2>
+              <h4><a href="science-museum-lighting-control-app">Science Museum</a></h4>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container-fluid">
-    <div class="row color-block oatbook">
-      <div class="col-5">
-        <div class="center-align">
-          <div class="scroll-element js-scroll fade-in">
-            <h2 style="color: #304a5d;">OATBook</h2>
-            <h4><a href="oatbook-medical-app">Medical tracker app for patients taking warfarin</a></h4>
-            <p class="lead">Product design, UI, UX.</p>
+    <div class="container-fluid">
+      <div class="row color-block oatbook">
+        <div class="col-5">
+          <div class="center-align">
+            <div class="scroll-element">
+              <h2 style="color: #304a5d;">OATBook</h2>
+              <h4>Medical tracker app for patients taking warfarin</h4>
+              <p class="lead">Product design, UI, UX.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="container-fluid">
-    <div class="row color-block artimbarc">
-      <div class="col-5">
-        <div class="center-align">
-          <div class="scroll-element js-scroll fade-in">
-            <h2 style="color: #304a5d;">ARTimbarc</h2>
-            <h4><a href="artimbarc">Gallery audio tour platform</a></h4>
-            <p class="lead">Product design, UI, UX.</p>
+    <div class="container-fluid">
+      <div class="row color-block recliningworm">
+        <div class="col-5">
+          <div class="center-align">
+            <div class="scroll-element">
+              <h2 style="color: pink;">Reclining Worm</h2>
+              <h4>Reclining Worm</h4>
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    {% include clients.html %}
+
   </div>
 
+<footer>
   <div class="container-fluid">
-    <div class="row color-block recliningworm">
-      <div class="col-5">
-        <div class="center-align">
-          <div class="scroll-element js-scroll fade-in">
-            <h2 style="color: #fff0cd;">Reclining Worm</h2>
-            <h4><a href="reclining-worm">Reclining Worm</a></h4>
-          </div>
-        </div>
+
+    <div class="row">
+      <div class="col">
+        <h2><a href="mailto:rob@warface.co.uk">Let's work together</a></h2>
+        <p><a href="mailto:rob@warface.co.uk">rob@warface.co.uk</a></p>
+
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="https://www.instagram.com/warface/" target="_blank"><i class="fa fa-instagram"></i> <span class="d-none d-md-inline">Instagram</span></a></li>
+          <li class="list-inline-item"><a href="https://medium.com/@warface" target="_blank"><i class="fab fa-medium-m"></i> <span class="d-none d-md-inline">Medium</span></a></li>
+          <li class="list-inline-item"><a href="https://dribbble.com/warface" target="_blank"><i class="fa fa-dribbble"></i>  <span class="d-none d-md-inline">Dribbble</span></a></li>
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/robcleaton-mobile-product-designer" target="_blank"><i class="fa fa-linkedin"></i>  <span class="d-none d-md-inline">LinkedIn</span></a></li>
+        </ul>
       </div>
     </div>
+
   </div>
-
-  <div class="container-fluid">
-    <div class="row color-block justeat">
-      <div class="col-5">
-        <div class="center-align">
-          <div class="scroll-element js-scroll fade-in">
-            <h2 style="color: #304a5d;">Just Eat</h2>
-            <h4><a href="artimbarc">Restaurant facing tools</a></h4>
-            <p class="lead">Product design, UI, UX.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="cards-lg">
-    {% include project-cards.html %}
-  </div>
-
-  {% include clients.html %}
-
-</div>
+</footer>
