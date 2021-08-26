@@ -7,6 +7,9 @@ html, body, footer, .sheets {
   background: #ffc436;
 }
 
+.hero h2 {
+  padding: 4vh 0;
+}
 h2 {
   color: #ffffff;
   text-align: center;
@@ -18,7 +21,8 @@ p {
   line-height: 2rem;
 }
 .hero {
-  padding-top: 4vh;
+  padding-top: 8vh;
+  max-width: 1140px;
 }
 .navbar-brand {
   width: 300px;
@@ -38,9 +42,9 @@ p.card-text {
   display: none;
 }
 .sheets {
-  background: transparent;
+  background: #ffc436;
   padding: 0px;
-  padding-top: 8vh;
+  margin-top: 8vh;
 }
 .color-block h2 {
   text-align: left;
@@ -57,17 +61,42 @@ p.card-text {
 .color-block.recliningworm {
   background: #3a55bf;
 }
+.folio {
+  color: white;
+  border-top: solid 2px white;
+  padding-top: 12px;
+}
+.blue {
+  color: #3a55bf;
+}
+.red {
+  color: #ff6161;
+}
 </style>
 
 <div class="container-fluid sticky hero">
   <a class="navbar-brand" href="#"></a>
   <div class="row">
     <div class="col">
-      <h2>Rob Cleaton.
-        Product designer based in London. With over 15 years experience designing and leading design teams.</h2>
+      <h2><span class="blue">
+        Rob Cleaton.
+        Product designer based in London. </span>With over <a class="red" href=""> 15 years experience</a> designing and leading design teams.</h2>
+    </div>
+  </div>
+
+  <div class="folio">
+    <div class="col">
+      <ul class="list-inline">
+        <li class="list-inline-item">Design strategy</li>
+        <li class="list-inline-item">/ Design thinking</li>
+        <li class="list-inline-item">/ Product design</li>
+        <li class="list-inline-item">/ UX research</li>
+        <li class="list-inline-item">/ UI/UX design</li>
+      </ul>
     </div>
   </div>
 </div>
+
 
 
   <div class="sheets">
@@ -100,7 +129,7 @@ p.card-text {
         </div>
       </div>
     </div>
-    
+
     <div class="container-fluid">
       <div class="row color-block sciencemuseum">
         <div class="col-5">

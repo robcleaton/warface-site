@@ -212,11 +212,8 @@ footer {
 }
 .clients {
   .helper {
-    opacity: 0.4;
-    max-width: 200px;
-  }
-  .helper:hover {
     opacity: 0.8;
+    max-width: 200px;
   }
   .trainline {
     background: url('../images/logos/tl-black-logo.svg')center center no-repeat;
@@ -272,6 +269,11 @@ footer {
     background: url('../images/logos/experian-black-logo.svg')center center no-repeat;
     width: 100%;
     background-size: 70%;
+  }
+  .gov {
+    background: url('../images/logos/gov-logo.png')center center no-repeat;
+    width: 100%;
+    background-size: 72%;
   }
 }
 .recliningworm {
