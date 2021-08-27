@@ -3,8 +3,11 @@ html, body {
   color: $dark-clay;
 }
 a {
-  color: #2dca8a;
+  color: $blue;
   font-weight: bold;
+}
+a:hover {
+  color: white;
 }
 a.navbar-brand {
   background: url("../images/warface-logo.svg")0 0 no-repeat;

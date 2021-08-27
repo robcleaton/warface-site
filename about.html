@@ -1,32 +1,54 @@
 ---
 title: About
-layout: default
+layout: hold
 ---
+<style>
+html, body, footer, .sheets {
+  background: #ffc436;
+}
+
+.hero li {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+.navbar-brand {
+  text-align: center;
+}
+
+footer a, footer h2 {
+  color: #ff6161;
+}
+footer a:hover {
+  color: white;
+}
+</style>
 
 <div class="container-fluid hero">
+  <a class="navbar-brand" href="/"></a>
 
   {% include about.html %}
 
   <div class="row">
-    <div class="col-md-8">
+    <div class="col-md-2">
     </div>
-  </div>
-
-  <div class="row color-block">
     <div class="col-md-8">
-      <h2 style="color: #fff0cd;">The works of Rob Cleaton</h2>
       <p class="lead">Working across many disciplines of digital design from user research and gathering user insights to UX and service design to sketching, prototyping and UI design.
         <br>With a passion for problem solving and user centric methodologies to help clients visualise and deliver ideas to validate and feel confident about.  Weather you're a startup looking to visualise and communicate your vision or a existing brand looking to develop and engage with your audience we can help at any step.</p>
-
+    </div>
+    <div class="col-md-2">
     </div>
   </div>
 
-  {% include categories.html %}
+
+<div class="container">
 
   <div class="row" style="padding-top: 10px;">
+    <div class="col-md-2">
+    </div>
+
     <div class="col-md-8">
       <h2>Awards & mentions</h2>
-      <ul>
+      <ul class="list-unstyled">
         <li><a href="https://shop.museumca.org/collections/respect/products/hip-hop-enamel-pins" target="_blank">Oakland Museum of California exhibition RESPECT: Hip Hop Style and Wisdom</a> – RecliningWorm</li>
         <li><a href="https://www.theguardian.com/technology/2018/feb/27/snow-chaos-apps-trains-roads" target="_blank">The Guardian - The best transport apps to help you find your way through the snow</a> – Trainline App</li>
         <li><a href="https://www.theguardian.com/public-leaders-network/2016/sep/15/top-10-transport-apps-smarter-travel" target="_blank">The Guardian - Top 10 transport apps for smarter travel</a> – Trainline App</li>
@@ -50,10 +72,12 @@ layout: default
         <li><a href="https://www.cssawards.net/website/warface/" target="_blank">CSS Awards - Site of the day</a>  – warface.co.uk</li>
       </ul>
     </div>
+
+    <div class="col-md-2">
+    </div>
   </div>
 </div>
 
 {% include clients.html %}
-{% include project-cards.html %}
 
 {% include footer.html %}
